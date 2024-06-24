@@ -1,0 +1,1 @@
+you can only put the re-usable module here ie, login form. Each page will made of different reusable modules. Like if you have a page of posts, you can add testimonial modules in the posts section and as well as profile page.
