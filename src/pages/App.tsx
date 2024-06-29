@@ -1,15 +1,13 @@
-import "../styles/App.css";
-import { Button } from "../components/ui/button";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Main from "./Main";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Button className="w-[300px]" variant={"default"}>
-          Test
-        </Button>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route element={<Main />} index />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
