@@ -29,7 +29,7 @@ import { Sheet, SheetContent, SheetTrigger } from "../components/ui/sheet";
 // import "./global.css";
 import { Toaster } from "../components/ui/toaster";
 import GenerateUi from "../libs/generate-ui";
-import NavLink from "../components/stateless/navlinks";
+import NavLink from "../components/stateless/nav-links";
 import Profile_Menu from "../components/stateless/profile-menu";
 
 const languages = ["en", "ar"];

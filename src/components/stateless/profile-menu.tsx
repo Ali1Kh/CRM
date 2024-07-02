@@ -1,4 +1,3 @@
-import { Button } from "../ui/button";
 import {
   DropdownMenu,
   DropdownMenuTrigger,
@@ -6,8 +5,10 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuItem,
-} from "../ui/dropdown-menu";
+  Button,
+} from "../ui/index";
 import { CircleUser } from "lucide-react";
+import React from "react";
 
 function Profile_Menu() {
   return (
@@ -24,7 +25,12 @@ function Profile_Menu() {
         <DropdownMenuItem>Settings</DropdownMenuItem>
         <DropdownMenuItem>Support</DropdownMenuItem>
         <DropdownMenuSeparator />
-        <DropdownMenuItem onClick={() => alert("put signout function here!")}>
+        <DropdownMenuItem
+          onClick={() =>
+            // signOut({ redirect: true, callbackUrl: "/auth/signin" })
+            alert("implement logout functionality at profile-menu.tsx")
+          }
+        >
           Logout
         </DropdownMenuItem>
       </DropdownMenuContent>
